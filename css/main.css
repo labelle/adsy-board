@@ -20,6 +20,18 @@
   background: url("../img/round1/mood-board-5.png");
 }
 
+.mood-board-1,
+.mood-board-2,
+.mood-board-3,
+.mood-board-4,
+.mood-board-5 {
+  background-position-y: 0; /* is this correct property to top align */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 
 /* For production, reduce the number of font families to the minimum required */
 
