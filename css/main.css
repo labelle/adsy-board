@@ -153,6 +153,7 @@ ELEMENTS LIBRARY
 .margin-right-35 {
   margin-right: 35px; }
 
+
 .margin-right-20  {
 margin-right:20px;
 }
@@ -163,6 +164,19 @@ margin-right:10px;
 
 .margin-right-5  {
 margin-right:5px;
+}
+
+
+.margin-left-20  {
+margin-left:20px;
+}
+
+.margin-left-10  {
+margin-left:10px;
+}
+
+.margin-left-5  {
+margin-left:5px;
 }
 
 /* Padding */
@@ -864,7 +878,7 @@ background-position-x:right;}
 
 .img-14 {
     background-image: url("https://images.unsplash.com/photo-1416331108676-a22ccb276e35?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1004&q=80&cs=tinysrgb");
-}
+background-position-x:center;}
 
 /*.img-15 {
     background-image: url("https://images.unsplash.com/photo-1471171768346-d08fb2813c45?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=2250&q=80&cs=tinysrgb");
