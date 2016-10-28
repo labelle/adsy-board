@@ -1,56 +1,38 @@
 /* Imagery */
 
 .mood-board-1 {
-  background: url("../img/round1/mood-board-1.png") no-repeat;
-  background-position-y: 0; /* is this correct property to top align */
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url("../img/round1/mood-board-1.png");
 }
 
 .mood-board-2 {
-  background: url("../img/round1/mood-board-2.png") no-repeat;
-  background-position-y: 0; /* is this correct property to top align */
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url("../img/round1/mood-board-2.png");
 }
 
 .mood-board-3 {
-  background: url("../img/round1/mood-board-3.png") no-repeat;
-  background-position-y: 0; /* is this correct property to top align */
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url("../img/round1/mood-board-3.png");
 }
 
 .mood-board-4 {
-  background: url("../img/round1/mood-board-4.png") no-repeat;
-  background-position-y: 0; /* is this correct property to top align */
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url("../img/round1/mood-board-4.png");
 }
 
 .mood-board-5 {
-  background: url("../img/round1/mood-board-5.png") no-repeat;
-  background-position-y: 0; /* is this correct property to top align */
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url("../img/round1/mood-board-5.png");
 }
 
 
 /* For production, reduce the number of font families to the minimum required */
 
+.evo-header-biggest,
+.evo-header-bigger,
+.evo-header-big,
+.evo-header,
+.evo-header-small,
+.evo-header-smaller,
+.evo-header-smallest,
 .brand-font-1  {
 font-family: 'Roboto', sans-serif !important;
-font-weight:900;
+font-weight:400;
 }
 
 .brand-font-2  {
@@ -702,4 +684,209 @@ margin-right:5px;
   background: linear-gradient(180deg, #eeeeee, #ffffff);
   }
 
+/* Flexbox Masrony Grid */
+
+
+/*
+body {
+  margin: 0;
+}
+
+a {
+  border:none;
+  border:hidden;
+}
+*/
+
+.flex-container {
+  padding: 0;
+/*  margin: .5%;*/
+  flex-wrap: wrap;
+  
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.flex-row            { 
+  -webkit-flex-direction: row; 
+  flex-direction: row;
+}
+
+.item > img {
+     display: block;
+     float: left;
+     height:0;
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     vertical-align:top;
+}
+
+
+@media only screen and (min-width: 300px) {
+
+.item {
+    background: #fff;
+    margin: .25%;
+    width: 49.5%;
+}
+
+.item > a > img {
+     width: 100%;
+     padding-bottom: 135%;
+}
+
+.item-wide {
+    background: #fff;
+    margin: .25%;
+    width: 99.5%;
+}
+
+.item-wide > a > img {
+     width: 100%;
+     padding-bottom: 66.75%;
+}
+
+}
+
+@media only screen and (min-width: 900px) {
+
+.item {
+    background: #fff;
+    margin: .25%;
+    width: 24.5%;
+}
+
+.item > a > img {
+     width: 100%;
+     padding-bottom: 135%;
+}
+
+.item-wide {
+    background: #fff;
+    margin: .25%;
+    width: 49.5%;
+}
+
+.item-wide > a > img {
+     width: 100%;
+     padding-bottom: 66.75%;
+}
+
+
+}
+
+
+
+.img-1,
+.img-2,
+.img-3,
+.img-4,
+.img-5,
+.img-6,
+.img-7,
+.img-8,
+.img-9,
+.img-10,
+.img-11,
+.img-12,
+.img-13,
+.img-14,
+.img-15,
+.img-16,
+.img-17,
+.img-18,
+.img-19,
+.img-20 {
+  background-position-y: 0; /* is this correct property to top align */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.img-1 {
+  background-image: url("https://images.unsplash.com/photo-1475018608413-f84fe2a42b7a?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=2241&q=80&cs=tinysrgb");
+}
+
+.img-2 {
+    background-image: url("https://images.unsplash.com/photo-1466150036782-869a824aeb25?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb");
+}
+
+.img-3 {
+    background-image: url("https://images.unsplash.com/photo-1471174466996-0aa69dbda661?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1202&q=80&cs=tinysrgb");
+}
+
+/*.img-4 {
+    background-image: url("https://images.unsplash.com/photo-1430462708036-7ef5363d56d8?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=2292&q=80&cs=tinysrgb");
+  }*/
+
+.img-5 {
+    background-image: url("https://images.unsplash.com/photo-1430462708036-7ef5363d56d8?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=2292&q=80&cs=tinysrgb");
+}
+
+.img-6 {
+    background-image: url("https://images.unsplash.com/photo-1445295029071-5151176738d0?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb");
+background-position-x:-150px;}
+
+.img-7 {
+    background-image: url("https://images.unsplash.com/photo-1435164205788-305635a36ec2?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=2250&q=80&cs=tinysrgb");
+background-position-y:bottom;}
+
+.img-8 {
+    background-image: url("https://images.unsplash.com/photo-1461638189575-2a947ecbf2cb?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=2143&q=80&cs=tinysrgb");
+background-position-y:bottom;}
+
+.img-9 {
+    background-image: url("https://images.unsplash.com/photo-1441148345475-03a2e82f9719?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb");
+}
+
+.img-10 {
+    background-image: url("https://images.unsplash.com/photo-1472806426350-603610d85659?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb");
+background-position-x:right;}
+
+.img-11 {
+    background-image: url("https://images.unsplash.com/photo-1440613905118-99b921706b5c?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb");
+background-position-x:center;}
+
+.img-12 {
+    background-image: url("https://images.unsplash.com/photo-1472739841375-d0ea9f0cb6a6?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=2247&q=80&cs=tinysrgb");
+}
+
+.img-13 {
+    background-image: url("https://images.unsplash.com/photo-1459257831348-f0cdd359235f?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb");
+background-position-x:right;}
+
+.img-14 {
+    background-image: url("https://images.unsplash.com/photo-1416331108676-a22ccb276e35?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1004&q=80&cs=tinysrgb");
+}
+
+/*.img-15 {
+    background-image: url("https://images.unsplash.com/photo-1471171768346-d08fb2813c45?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=2250&q=80&cs=tinysrgb");
+  }*/
+
+.img-16 {
+    background-image: url("https://images.unsplash.com/photo-1471171768346-d08fb2813c45?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=2250&q=80&cs=tinysrgb");
+}
+
+.img-17 {
+    background-image: url("https://images.unsplash.com/21/mac-glasses.JPG?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb");
+}
+.img-18 {
+    background-image: url("https://images.unsplash.com/21/mac-glasses.JPG?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb");
+}
+.img-19 {
+    background-image: url("https://images.unsplash.com/21/mac-glasses.JPG?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb");
+}
+.img-20 {
+    background-image: url("https://images.unsplash.com/21/mac-glasses.JPG?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb");
+  }
+
+
+/* End Flexbox Masonry Grid */
 
