@@ -237,7 +237,7 @@ margin-right:5px;
   overflow:hidden;
 }
 
-/* Background gradients */
+/* Background gradients 90 degrees */
 
 /* Magenta */
 
@@ -353,5 +353,353 @@ margin-right:5px;
   background: linear-gradient(90deg, #eeeeee, #cccccc);
   }
 
+  /* Background gradients 180 degrees */
+
+/* Magenta */
+
+.gradient-mangenta-180 {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #ec008c;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(180deg, #ec008c, #c80077);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(180deg, #ec008c, #c80077);
+  
+  /* Opera */
+  background: -o-linear-gradient(180deg, #ec008c, #c80077);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(180deg, #ec008c, #c80077);
+  
+  /* W3C Standard */
+  background: linear-gradient(180deg, #ec008c, #c80077);
+  }
+
+/* Cyan */
+
+.gradient-cyan-180 {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #00aeef;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(180deg, #00aeef, #008cc0);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(180deg, #00aeef, #008cc0);
+  
+  /* Opera */
+  background: -o-linear-gradient(180deg, #00aeef, #008cc0);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(180deg, #00aeef, #008cc0);
+  
+  /* W3C Standard */
+  background: linear-gradient(180deg, #00aeef, #008cc0);
+  }
+
+  .gradient-yellow-180 {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #fff02a;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(180deg, #fff02a, #dbce24);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(180deg, #fff02a, #dbce24);
+  
+  /* Opera */
+  background: -o-linear-gradient(180deg, #fff02a, #dbce24);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(180deg, #fff02a, #dbce24);
+  
+  /* W3C Standard */
+  background: linear-gradient(180deg, #fff02a, #dbce24);
+  }
+
+  .gradient-yellow-180 {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #fff02a;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(180deg, #fff02a, #dbce24);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(180deg, #fff02a, #dbce24);
+  
+  /* Opera */
+  background: -o-linear-gradient(180deg, #fff02a, #dbce24);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(180deg, #fff02a, #dbce24);
+  
+  /* W3C Standard */
+  background: linear-gradient(180deg, #fff02a, #dbce24);
+  }
+
+  .gradient-light-gray-180 {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #eeeeee;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(180deg, #eeeeee, #cccccc);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(180deg, #eeeeee, #cccccc);
+  
+  /* Opera */
+  background: -o-linear-gradient(180deg, #eeeeee, #cccccc);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(180deg, #eeeeee, #cccccc);
+  
+  /* W3C Standard */
+  background: linear-gradient(180deg, #eeeeee, #cccccc);
+  }
+
+
+/* Background gradients 90 degrees to White */
+
+/* Magenta */
+
+.gradient-mangenta-90-white {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #ec008c;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(90deg, #ec008c, #ffffff);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(90deg, #ec008c, #ffffff);
+  
+  /* Opera */
+  background: -o-linear-gradient(90deg, #ec008c, #ffffff);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(90deg, #ec008c, #ffffff);
+  
+  /* W3C Standard */
+  background: linear-gradient(90deg, #ec008c, #ffffff);
+  }
+
+/* Cyan */
+
+.gradient-cyan-90-white {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #00aeef;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(90deg, #00aeef, #ffffff);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(90deg, #00aeef, #ffffff);
+  
+  /* Opera */
+  background: -o-linear-gradient(90deg, #00aeef, #ffffff);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(90deg, #00aeef, #ffffff);
+  
+  /* W3C Standard */
+  background: linear-gradient(90deg, #00aeef, #ffffff);
+  }
+
+  .gradient-yellow-90-white {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #fff02a;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(90deg, #fff02a, #ffffff);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(90deg, #fff02a, #ffffff);
+  
+  /* Opera */
+  background: -o-linear-gradient(90deg, #fff02a, #ffffff);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(90deg, #fff02a, #ffffff);
+  
+  /* W3C Standard */
+  background: linear-gradient(90deg, #fff02a, #ffffff);
+  }
+
+  .gradient-yellow-90-white {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #fff02a;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(90deg, #fff02a, #ffffff);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(90deg, #fff02a, #ffffff);
+  
+  /* Opera */
+  background: -o-linear-gradient(90deg, #fff02a, #ffffff);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(90deg, #fff02a, #ffffff);
+  
+  /* W3C Standard */
+  background: linear-gradient(90deg, #fff02a, #ffffff);
+  }
+
+  .gradient-light-gray-90-white {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #eeeeee;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(90deg, #eeeeee, #ffffff);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(90deg, #eeeeee, #ffffff);
+  
+  /* Opera */
+  background: -o-linear-gradient(90deg, #eeeeee, #ffffff);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(90deg, #eeeeee, #ffffff);
+  
+  /* W3C Standard */
+  background: linear-gradient(90deg, #eeeeee, #ffffff);
+  }
+
+  /* Background gradients 180 degrees to White */
+
+/* Magenta */
+
+.gradient-mangenta-180-white {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #ec008c;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(180deg, #ec008c, #ffffff);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(180deg, #ec008c, #ffffff);
+  
+  /* Opera */
+  background: -o-linear-gradient(180deg, #ec008c, #ffffff);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(180deg, #ec008c, #ffffff);
+  
+  /* W3C Standard */
+  background: linear-gradient(180deg, #ec008c, #ffffff);
+  }
+
+/* Cyan */
+
+.gradient-cyan-180-white {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #00aeef;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(180deg, #00aeef, #ffffff);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(180deg, #00aeef, #ffffff);
+  
+  /* Opera */
+  background: -o-linear-gradient(180deg, #00aeef, #ffffff);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(180deg, #00aeef, #ffffff);
+  
+  /* W3C Standard */
+  background: linear-gradient(180deg, #00aeef, #ffffff);
+  }
+
+  .gradient-yellow-180-white {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #fff02a;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(180deg, #fff02a, #ffffff);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(180deg, #fff02a, #ffffff);
+  
+  /* Opera */
+  background: -o-linear-gradient(180deg, #fff02a, #ffffff);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(180deg, #fff02a, #ffffff);
+  
+  /* W3C Standard */
+  background: linear-gradient(180deg, #fff02a, #ffffff);
+  }
+
+  .gradient-yellow-180-white {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #fff02a;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(180deg, #fff02a, #ffffff);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(180deg, #fff02a, #ffffff);
+  
+  /* Opera */
+  background: -o-linear-gradient(180deg, #fff02a, #ffffff);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(180deg, #fff02a, #ffffff);
+  
+  /* W3C Standard */
+  background: linear-gradient(180deg, #fff02a, #ffffff);
+  }
+
+  .gradient-light-gray-180-white {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #eeeeee;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(180deg, #eeeeee, #ffffff);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(180deg, #eeeeee, #ffffff);
+  
+  /* Opera */
+  background: -o-linear-gradient(180deg, #eeeeee, #ffffff);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(180deg, #eeeeee, #ffffff);
+  
+  /* W3C Standard */
+  background: linear-gradient(180deg, #eeeeee, #ffffff);
+  }
 
 
