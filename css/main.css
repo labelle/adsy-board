@@ -49,14 +49,36 @@
 /* For production, reduce the number of font families to the minimum required */
 
 .brand-font-1  {
-font-family: 'Open Sans', sans-serif !important;
-font-weight:800;
+font-family: 'Roboto', sans-serif !important;
+font-weight:900;
 }
 
 .brand-font-2  {
 font-family: 'Open Sans', sans-serif !important;
 font-weight:300;
 }
+
+.brand-font-3  {
+font-family: 'Baloo Tamma', cursive !important;
+/*font-weight:300;*/
+}
+
+.brand-font-4  {
+font-family: 'Amatic SC', cursive !important;
+/*font-weight:300;*/
+}
+
+.brand-font-5  {
+font-family: 'Josefin Slab', serif !important;
+/*font-weight:300;*/
+}
+
+.brand-font-6  {
+font-family: 'EB Garamond', serif !important;
+/*font-weight:300;*/
+}
+
+
 
 .viz-header {
 font-style: normal;
@@ -67,14 +89,14 @@ font-style: normal;
 }
 
 
-/* cyan */
+/* Magenta */
 
 .brand-color-1  {
-  color:#00aeef
+  color:#ec008c
 }
 
 .brand-color-1-bg {
-  background-color:#00aeef;
+  background-color:#ec008c;
 }
 
 /* gray */
@@ -96,27 +118,28 @@ a {
 
 a:link                      { color: inherit; text-decoration: none; }
 a:visited                   { color: inherit; text-decoration: none; }
-a:hover                     { color: #00aeef; text-decoration: none; }
-a:active                    { color: #00aeef; text-decoration: none; }
-.evo-active                 { color: #00aeef; text-decoration: none; }
+a:hover                     { color: ##ec008c; text-decoration: none; }
+a:active                    { color: ##ec008c; text-decoration: none; }
+.evo-active                 { color: ##ec008c; text-decoration: none; }
 
 /* experimental link classes below */
 a.link-solid:link           { color: inherit; text-decoration: none; }
 a.link-solid:visited        { color: inherit; text-decoration: none; }
-a.link-solid:hover          { color: #ffffff !important; background-color: #00aeef !important; text-decoration: none; }
-a.link-solid:active         { color: #ffffff !important; background-color: #00aeef !important; text-decoration: none; }
-.evo-active-solid           { color: #ffffff !important; background-color: #00aeef !important; text-decoration: none; }
+a.link-solid:hover          { color: #ffffff !important; background-color: ##ec008c !important; text-decoration: none; }
+a.link-solid:active         { color: #ffffff !important; background-color: ##ec008c !important; text-decoration: none; }
+.evo-active-solid           { color: #ffffff !important; background-color: ##ec008c !important; text-decoration: none; }
 /* end experimental link classes */
 
 p.highlight,span.highlight,
 ::-moz-selection {
-  background: #00aeef;
+  background: #ec008c;
   color: #ffffff; }
 
 p.highlight,span.highlight,
 ::selection {
-  background: #00aeef;
+  background: #ec008c;
   color: #ffffff; }
+
 
 /*********************
 ELEMENTS LIBRARY
@@ -215,6 +238,120 @@ margin-right:5px;
 }
 
 /* Background gradients */
+
+/* Magenta */
+
+.gradient-mangenta-90 {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #ec008c;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(90deg, #ec008c, #c80077);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(90deg, #ec008c, #c80077);
+  
+  /* Opera */
+  background: -o-linear-gradient(90deg, #ec008c, #c80077);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(90deg, #ec008c, #c80077);
+  
+  /* W3C Standard */
+  background: linear-gradient(90deg, #ec008c, #c80077);
+  }
+
+/* Cyan */
+
+.gradient-cyan-90 {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #00aeef;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(90deg, #00aeef, #008cc0);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(90deg, #00aeef, #008cc0);
+  
+  /* Opera */
+  background: -o-linear-gradient(90deg, #00aeef, #008cc0);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(90deg, #00aeef, #008cc0);
+  
+  /* W3C Standard */
+  background: linear-gradient(90deg, #00aeef, #008cc0);
+  }
+
+  .gradient-yellow-90 {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #fff02a;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(90deg, #fff02a, #dbce24);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(90deg, #fff02a, #dbce24);
+  
+  /* Opera */
+  background: -o-linear-gradient(90deg, #fff02a, #dbce24);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(90deg, #fff02a, #dbce24);
+  
+  /* W3C Standard */
+  background: linear-gradient(90deg, #fff02a, #dbce24);
+  }
+
+  .gradient-yellow-90 {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #fff02a;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(90deg, #fff02a, #dbce24);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(90deg, #fff02a, #dbce24);
+  
+  /* Opera */
+  background: -o-linear-gradient(90deg, #fff02a, #dbce24);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(90deg, #fff02a, #dbce24);
+  
+  /* W3C Standard */
+  background: linear-gradient(90deg, #fff02a, #dbce24);
+  }
+
+  .gradient-light-gray-90 {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #eeeeee;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(90deg, #eeeeee, #cccccc);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(90deg, #eeeeee, #cccccc);
+  
+  /* Opera */
+  background: -o-linear-gradient(90deg, #eeeeee, #cccccc);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(90deg, #eeeeee, #cccccc);
+  
+  /* W3C Standard */
+  background: linear-gradient(90deg, #eeeeee, #cccccc);
+  }
 
 
 
