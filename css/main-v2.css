@@ -13,23 +13,16 @@ div.ad-shadow-300 {
 }
 
 .img-bridal {
-    background: url("../img/round2/wedding-bw.jpg");
+    background: url("../img/round2/wedding.jpeg");
 }
 
 .img-bridal-bw {
     background: url("../img/round2/wedding-bw.jpg");
 }
 
-.img-gym {
-    background: url("../img/round2/gym-bw.jpg");
-}
-
-.img-gym-bw {
-    background: url("../img/round2/gym-bw.jpg");
-}
-
 .img-gym-yellow {
     background: url("../img/round2/gym-yellow.jpg");
+    background-position:bottom left;
 }
 
 .img-shoes,
@@ -46,6 +39,18 @@ div.ad-shadow-300 {
 }
 
 
+.img-gym {
+    background: url("../img/round2/gym.jpeg");
+    background-position:bottom;
+    background-size:150%;
+}
+
+
+.img-gym-bw {
+    background: url("../img/round2/gym-bw.jpg");
+    background-position:bottom left;
+    background-size:150%;
+}
 
 /* Campaign Logos */
 
@@ -123,6 +128,7 @@ div.ad-shadow-300 {
   background-size: cover;
 }
 
+/* Brand Fonts */
 
 /* For production, reduce the number of font families to the minimum required */
 
@@ -135,35 +141,137 @@ div.ad-shadow-300 {
 .evo-header-smallest,
 .brand-font-1  {
 font-family: 'Roboto', sans-serif !important;
-font-weight:400;
+font-weight:900;
 }
 
 .brand-font-2  {
+font-family: 'Roboto', sans-serif !important;
+font-weight:400;
+}
+
+.brand-font-3  {
+font-family: 'Open Sans', sans-serif !important;
+font-weight:800;
+}
+
+.evo-text-intro,
+.evo-text-biggest,
+.evo-text-bigger,
+.evo-text,
+.evo-text-small,
+.evo-text-smaller,
+.evo-text-smallest,
+.brand-font-4  {
 font-family: 'Open Sans', sans-serif !important;
 font-weight:300;
 }
 
-.brand-font-3  {
+.brand-font-5  {
 font-family: 'Baloo Tamma', cursive !important;
 /*font-weight:300;*/
 }
 
-.brand-font-4  {
-font-family: 'Amatic SC', cursive !important;
-/*font-weight:300;*/
-}
 
-.brand-font-5  {
-font-family: 'Josefin Slab', serif !important;
-/*font-weight:300;*/
-}
+/* Campaign Serif */
 
-.brand-font-6  {
+.campaign-font-1  {
 font-family: 'EB Garamond', serif !important;
 /*font-weight:300;*/
 }
 
+.campaign-font-2  {
+font-family: 'Lora', serif !important;
+/*font-weight:300;*/
+}
 
+
+/* Campaign Sans Serif */
+
+.campaign-font-3  {
+font-family: 'Josefin Slab', serif !important;
+/*font-weight:300;*/
+}
+
+.campaign-font-4  {
+font-family: 'Rubik', sans-serif !important;
+font-weight:400;
+}
+
+/* Campaign Chunky */
+
+.campaign-font-5  {
+font-family: 'Rubik One', sans-serif !important;
+/*font-weight:300;*/
+}
+
+.campaign-font-6  {
+font-family: 'Alfa Slab One', cursive !important;
+/*font-weight:300;*/
+}
+
+
+/* Campaign Flowery */
+
+
+.campaign-font-7  {
+font-family: 'Flamenco', cursive !important;
+font-weight:300;
+}
+
+.campaign-font-8  {
+font-family: 'Arima Madurai', cursive !important;
+font-weight:200;
+}
+
+.campaign-font-9 {
+font-family: 'Nixie One', cursive !important;
+/*font-weight:300;*/
+}
+
+
+/* Campaign Scripty */
+
+.campaign-font-10  {
+font-family: 'Sacramento', cursive !important;
+/*font-weight:300;*/
+}
+
+.campaign-font-11 {
+font-family: 'Great Vibes', cursive !important;
+/*font-weight:300;*/
+}
+
+.campaign-font-12  {
+font-family: 'Qwigley', cursive !important;
+/*font-weight:700;*/
+}
+
+
+/* Campaign Handwritten */
+
+.campaign-font-13  {
+font-family: 'Cabin Sketch', cursive !important;
+font-weight:700;
+}
+
+.campaign-font-14  {
+font-family: 'Special Elite', cursive !important;
+/*font-weight:300;*/
+}
+
+.campaign-font-15  {
+font-family: 'Amatic SC', cursive !important;
+/*font-weight:300;*/
+}
+
+.campaign-font-16  {
+font-family: 'Pompiere', cursive !important;
+/*font-weight:300;*/
+}
+
+
+
+/* Header reset */
 
 .viz-header {
 font-style: normal;
