@@ -26,7 +26,11 @@ div.ad-shadow-300 {
 .img-bridal,
 .img-bridal-bw,
 .img-gym,
+.img-gym-2,
+.img-gym-3,
 .img-gym-bw,
+.img-gym-bw-2,
+.img-gym-bw-3,
 .img-gym-yellow {
   background-position-y: 0; /* is this correct property to top align */
   -webkit-background-size: cover;
@@ -39,14 +43,40 @@ div.ad-shadow-300 {
 .img-gym {
     background: url("../img/round2/gym.jpeg");
     background-position:bottom left;
-    background-size:150%;
+    background-size:170%;
 }
 
+
+.img-gym-2 {
+    background: url("../img/round2/gym.jpeg");
+    background-position:center;
+    background-size:500px;
+}
+
+.img-gym-3 {
+    background: url("../img/round2/gym.jpeg");
+    background-position:center;
+    background-position:30%;
+    background-size:500px;
+}
 
 .img-gym-bw {
     background: url("../img/round2/gym-bw.jpg");
     background-position:bottom;
     background-size:160%;
+
+}
+
+.img-gym-bw-2 {
+    background: url("../img/round2/gym-bw.jpg");
+    background-position:center;
+    background-size:500px;
+}
+
+.img-gym-bw-3 {
+    background: url("../img/round2/gym-bw.jpg");
+    background-position:center;
+    background-size:500px;
 }
 
 .img-bridal-bw {
