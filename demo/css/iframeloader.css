@@ -1,0 +1,15 @@
+.wrapper{
+  background-image: url("../globe_backer.png");
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  margin: 0 auto;
+  width: 1024px;
+  height: 2000px;
+}
+
+iframe {
+  border: 0px;
+  position: relative;
+  left: 690px;
+  top: 225px;
+}
