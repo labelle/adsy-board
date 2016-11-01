@@ -1,0 +1,1043 @@
+/* Shadow */
+
+div.ad-shadow-300 {
+    width: 300px;
+    box-shadow: 0 34px 58px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+/* Campaign Imagery */
+
+.img-shoes {
+    background: url("../img/round2/shoes.png");
+}
+
+.img-bridal {
+    background: url("../img/round2/wedding-bw.jpg");
+}
+
+.img-bridal-bw {
+    background: url("../img/round2/wedding-bw.jpg");
+}
+
+.img-gym {
+    background: url("../img/round2/gym-bw.jpg");
+}
+
+.img-gym-bw {
+    background: url("../img/round2/gym-bw.jpg");
+}
+
+.img-gym-yellow {
+    background: url("../img/round2/gym-yellow.jpg");
+}
+
+.img-shoes,
+.img-bridal,
+.img-bridal-bw,
+.img-gym,
+.img-gym-bw,
+.img-gym-yellow {
+  background-position-y: 0; /* is this correct property to top align */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+/* Campaign Logos */
+
+.logo-adsys {
+    background: url("../img/round2/adsys.png");
+}
+
+.logo-adsys-inverse {
+    background: url("../img/round2/adsys-inverse.png");
+}
+
+.logo-bridal {
+    background: url("../img/round2/adsy-bridal.png");
+}
+
+.logo-bridal-inverse {
+    background: url("../img/round2/adsy-bridal-inverse.png");
+}
+
+.logo-gym {
+    background: url("../img/round2/adsy-gym.png");
+}
+
+.logo-gym-inverse {
+    background: url("../img/round2/adsy-gym-inverse.png");
+}
+
+
+.logo-adsys,
+.logo-adsys-inverse,
+.logo-bridal,
+.logo-bridal-inverse,
+.logo-gym,
+.logo-gym-inverse {
+  background-position-y: 0; /* is this correct property to top align */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+/* Mood Board Images */
+
+.mood-board-1 {
+  background: url("../img/round1/mood-board-1.png");
+}
+
+.mood-board-2 {
+  background: url("../img/round1/mood-board-2.png");
+}
+
+.mood-board-3 {
+  background: url("../img/round1/mood-board-3.png");
+}
+
+.mood-board-4 {
+  background: url("../img/round1/mood-board-4.png");
+}
+
+.mood-board-5 {
+  background: url("../img/round1/mood-board-5.png");
+}
+
+.mood-board-1,
+.mood-board-2,
+.mood-board-3,
+.mood-board-4,
+.mood-board-5 {
+  background-position-y: 0; /* is this correct property to top align */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/* For production, reduce the number of font families to the minimum required */
+
+.evo-header-biggest,
+.evo-header-bigger,
+.evo-header-big,
+.evo-header,
+.evo-header-small,
+.evo-header-smaller,
+.evo-header-smallest,
+.brand-font-1  {
+font-family: 'Roboto', sans-serif !important;
+font-weight:400;
+}
+
+.brand-font-2  {
+font-family: 'Open Sans', sans-serif !important;
+font-weight:300;
+}
+
+.brand-font-3  {
+font-family: 'Baloo Tamma', cursive !important;
+/*font-weight:300;*/
+}
+
+.brand-font-4  {
+font-family: 'Amatic SC', cursive !important;
+/*font-weight:300;*/
+}
+
+.brand-font-5  {
+font-family: 'Josefin Slab', serif !important;
+/*font-weight:300;*/
+}
+
+.brand-font-6  {
+font-family: 'EB Garamond', serif !important;
+/*font-weight:300;*/
+}
+
+
+
+.viz-header {
+font-style: normal;
+}
+
+.viz-text {
+font-style: normal;
+}
+
+
+/* Adsys */
+
+.brand-color-adsys  {
+  color:#ed1b24
+}
+
+.brand-color-adsys-bg  {
+  background-color:#ed1b24
+}
+
+
+/* Adsys Bridal */
+
+.brand-color-bridal  {
+  color:#23293d
+}
+
+.brand-color-bridal-bg  {
+  background-color:#23293d
+}
+
+
+/* Adsys Gym */
+
+.brand-color-gym  {
+  color:#f7e10a
+}
+
+.brand-color-gym-bg  {
+  background-color:#f7e10a
+}
+
+
+
+/* Magenta */
+
+.brand-color-1  {
+  color:#ec008c
+}
+
+.brand-color-1-bg {
+  background-color:#ec008c;
+}
+
+/* gray */
+
+.brand-color-2  {
+  color:#7F7F7F
+}
+
+.brand-color-2-bg {
+  background-color:#7F7F7F;
+}
+
+a {
+ -webkit-transition: color 0.2s ease-out; 
+ -moz-transition: color 0.2s ease-out; 
+ -o-transition: color 0.2s ease-out; 
+ transition: color 0.2s ease-out; 
+}
+
+a:link                      { color: inherit; text-decoration: none; }
+a:visited                   { color: inherit; text-decoration: none; }
+a:hover                     { color: ##ec008c; text-decoration: none; }
+a:active                    { color: ##ec008c; text-decoration: none; }
+.evo-active                 { color: ##ec008c; text-decoration: none; }
+
+/* experimental link classes below */
+a.link-solid:link           { color: inherit; text-decoration: none; }
+a.link-solid:visited        { color: inherit; text-decoration: none; }
+a.link-solid:hover          { color: #ffffff !important; background-color: ##ec008c !important; text-decoration: none; }
+a.link-solid:active         { color: #ffffff !important; background-color: ##ec008c !important; text-decoration: none; }
+.evo-active-solid           { color: #ffffff !important; background-color: ##ec008c !important; text-decoration: none; }
+/* end experimental link classes */
+
+p.highlight,span.highlight,
+::-moz-selection {
+  background: #ec008c;
+  color: #ffffff; }
+
+p.highlight,span.highlight,
+::selection {
+  background: #ec008c;
+  color: #ffffff; }
+
+
+/*********************
+ELEMENTS LIBRARY
+*********************/
+
+.clearfix {
+  overflow: auto; }
+
+  /* Margin */
+
+.margin-top-120 {
+  margin-top: 120px; }
+
+.margin-top-100 {
+  margin-top: 100px; }
+
+.margin-top-85 {
+  margin-top: 85px; }
+
+.margin-top-80 {
+  margin-top: 80px; }
+
+.margin-right-75 {
+  margin-right: 75px; }
+
+.margin-right-50 {
+  margin-right: 50px; }
+
+.margin-right-35 {
+  margin-right: 35px; }
+
+
+.margin-right-20  {
+margin-right:20px;
+}
+
+.margin-right-10  {
+margin-right:10px;
+}
+
+.margin-right-5  {
+margin-right:5px;
+}
+
+
+.margin-left-20  {
+margin-left:20px;
+}
+
+.margin-left-10  {
+margin-left:10px;
+}
+
+.margin-left-5  {
+margin-left:5px;
+}
+
+/* Padding */
+
+.padding-top-10 {
+  padding-top: 10px; }
+
+.padding-top-7 {
+  padding-top: 7px; }
+
+
+/* Ad sizes for iFrames */
+
+.ad-728x90 {
+  width:728px;
+  height:90px;
+  border:1px solid #ccc;
+  overflow:hidden;
+}
+
+.ad-300x250 {
+  width:300px;
+  height:250px;
+  border:1px solid #ccc;
+  overflow:hidden;
+}
+
+.ad-300x600 {
+  width:300px;
+  height:600px;
+  border:1px solid #ccc;
+  overflow:hidden;
+}
+
+.ad-240x400 {
+  width:240px;
+  height:400px;
+  border:1px solid #ccc;
+  overflow:hidden;
+}
+
+.ad-160x600 {
+  width:160px;
+  height:600px;
+  border:1px solid #ccc;
+  overflow:hidden;
+}
+
+/* Facebook tab? */
+.ad-817x1000 {
+  width:817px;
+  height:1000px;
+  border:1px solid #ccc;
+  overflow:hidden;
+}
+
+/* Background gradients 90 degrees */
+
+/* Magenta */
+
+.gradient-mangenta-90 {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #ec008c;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(90deg, #ec008c, #c80077);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(90deg, #ec008c, #c80077);
+  
+  /* Opera */
+  background: -o-linear-gradient(90deg, #ec008c, #c80077);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(90deg, #ec008c, #c80077);
+  
+  /* W3C Standard */
+  background: linear-gradient(90deg, #ec008c, #c80077);
+  }
+
+/* Cyan */
+
+.gradient-cyan-90 {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #00aeef;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(90deg, #00aeef, #008cc0);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(90deg, #00aeef, #008cc0);
+  
+  /* Opera */
+  background: -o-linear-gradient(90deg, #00aeef, #008cc0);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(90deg, #00aeef, #008cc0);
+  
+  /* W3C Standard */
+  background: linear-gradient(90deg, #00aeef, #008cc0);
+  }
+
+  .gradient-yellow-90 {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #fff02a;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(90deg, #fff02a, #dbce24);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(90deg, #fff02a, #dbce24);
+  
+  /* Opera */
+  background: -o-linear-gradient(90deg, #fff02a, #dbce24);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(90deg, #fff02a, #dbce24);
+  
+  /* W3C Standard */
+  background: linear-gradient(90deg, #fff02a, #dbce24);
+  }
+
+  .gradient-yellow-90 {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #fff02a;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(90deg, #fff02a, #dbce24);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(90deg, #fff02a, #dbce24);
+  
+  /* Opera */
+  background: -o-linear-gradient(90deg, #fff02a, #dbce24);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(90deg, #fff02a, #dbce24);
+  
+  /* W3C Standard */
+  background: linear-gradient(90deg, #fff02a, #dbce24);
+  }
+
+  .gradient-light-gray-90 {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #eeeeee;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(90deg, #eeeeee, #cccccc);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(90deg, #eeeeee, #cccccc);
+  
+  /* Opera */
+  background: -o-linear-gradient(90deg, #eeeeee, #cccccc);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(90deg, #eeeeee, #cccccc);
+  
+  /* W3C Standard */
+  background: linear-gradient(90deg, #eeeeee, #cccccc);
+  }
+
+  /* Background gradients 180 degrees */
+
+/* Magenta */
+
+.gradient-mangenta-180 {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #ec008c;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(180deg, #ec008c, #c80077);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(180deg, #ec008c, #c80077);
+  
+  /* Opera */
+  background: -o-linear-gradient(180deg, #ec008c, #c80077);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(180deg, #ec008c, #c80077);
+  
+  /* W3C Standard */
+  background: linear-gradient(180deg, #ec008c, #c80077);
+  }
+
+/* Cyan */
+
+.gradient-cyan-180 {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #00aeef;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(180deg, #00aeef, #008cc0);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(180deg, #00aeef, #008cc0);
+  
+  /* Opera */
+  background: -o-linear-gradient(180deg, #00aeef, #008cc0);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(180deg, #00aeef, #008cc0);
+  
+  /* W3C Standard */
+  background: linear-gradient(180deg, #00aeef, #008cc0);
+  }
+
+  .gradient-yellow-180 {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #fff02a;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(180deg, #fff02a, #dbce24);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(180deg, #fff02a, #dbce24);
+  
+  /* Opera */
+  background: -o-linear-gradient(180deg, #fff02a, #dbce24);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(180deg, #fff02a, #dbce24);
+  
+  /* W3C Standard */
+  background: linear-gradient(180deg, #fff02a, #dbce24);
+  }
+
+  .gradient-yellow-180 {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #fff02a;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(180deg, #fff02a, #dbce24);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(180deg, #fff02a, #dbce24);
+  
+  /* Opera */
+  background: -o-linear-gradient(180deg, #fff02a, #dbce24);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(180deg, #fff02a, #dbce24);
+  
+  /* W3C Standard */
+  background: linear-gradient(180deg, #fff02a, #dbce24);
+  }
+
+  .gradient-light-gray-180 {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #eeeeee;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(180deg, #eeeeee, #cccccc);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(180deg, #eeeeee, #cccccc);
+  
+  /* Opera */
+  background: -o-linear-gradient(180deg, #eeeeee, #cccccc);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(180deg, #eeeeee, #cccccc);
+  
+  /* W3C Standard */
+  background: linear-gradient(180deg, #eeeeee, #cccccc);
+  }
+
+
+/* Background gradients 90 degrees to White */
+
+/* Magenta */
+
+.gradient-mangenta-90-white {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #ec008c;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(90deg, #ec008c, #ffffff);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(90deg, #ec008c, #ffffff);
+  
+  /* Opera */
+  background: -o-linear-gradient(90deg, #ec008c, #ffffff);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(90deg, #ec008c, #ffffff);
+  
+  /* W3C Standard */
+  background: linear-gradient(90deg, #ec008c, #ffffff);
+  }
+
+/* Cyan */
+
+.gradient-cyan-90-white {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #00aeef;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(90deg, #00aeef, #ffffff);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(90deg, #00aeef, #ffffff);
+  
+  /* Opera */
+  background: -o-linear-gradient(90deg, #00aeef, #ffffff);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(90deg, #00aeef, #ffffff);
+  
+  /* W3C Standard */
+  background: linear-gradient(90deg, #00aeef, #ffffff);
+  }
+
+  .gradient-yellow-90-white {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #fff02a;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(90deg, #fff02a, #ffffff);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(90deg, #fff02a, #ffffff);
+  
+  /* Opera */
+  background: -o-linear-gradient(90deg, #fff02a, #ffffff);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(90deg, #fff02a, #ffffff);
+  
+  /* W3C Standard */
+  background: linear-gradient(90deg, #fff02a, #ffffff);
+  }
+
+  .gradient-yellow-90-white {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #fff02a;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(90deg, #fff02a, #ffffff);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(90deg, #fff02a, #ffffff);
+  
+  /* Opera */
+  background: -o-linear-gradient(90deg, #fff02a, #ffffff);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(90deg, #fff02a, #ffffff);
+  
+  /* W3C Standard */
+  background: linear-gradient(90deg, #fff02a, #ffffff);
+  }
+
+  .gradient-light-gray-90-white {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #eeeeee;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(90deg, #eeeeee, #ffffff);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(90deg, #eeeeee, #ffffff);
+  
+  /* Opera */
+  background: -o-linear-gradient(90deg, #eeeeee, #ffffff);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(90deg, #eeeeee, #ffffff);
+  
+  /* W3C Standard */
+  background: linear-gradient(90deg, #eeeeee, #ffffff);
+  }
+
+  /* Background gradients 180 degrees to White */
+
+/* Magenta */
+
+.gradient-mangenta-180-white {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #ec008c;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(180deg, #ec008c, #ffffff);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(180deg, #ec008c, #ffffff);
+  
+  /* Opera */
+  background: -o-linear-gradient(180deg, #ec008c, #ffffff);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(180deg, #ec008c, #ffffff);
+  
+  /* W3C Standard */
+  background: linear-gradient(180deg, #ec008c, #ffffff);
+  }
+
+/* Cyan */
+
+.gradient-cyan-180-white {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #00aeef;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(180deg, #00aeef, #ffffff);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(180deg, #00aeef, #ffffff);
+  
+  /* Opera */
+  background: -o-linear-gradient(180deg, #00aeef, #ffffff);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(180deg, #00aeef, #ffffff);
+  
+  /* W3C Standard */
+  background: linear-gradient(180deg, #00aeef, #ffffff);
+  }
+
+  .gradient-yellow-180-white {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #fff02a;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(180deg, #fff02a, #ffffff);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(180deg, #fff02a, #ffffff);
+  
+  /* Opera */
+  background: -o-linear-gradient(180deg, #fff02a, #ffffff);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(180deg, #fff02a, #ffffff);
+  
+  /* W3C Standard */
+  background: linear-gradient(180deg, #fff02a, #ffffff);
+  }
+
+  .gradient-yellow-180-white {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #fff02a;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(180deg, #fff02a, #ffffff);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(180deg, #fff02a, #ffffff);
+  
+  /* Opera */
+  background: -o-linear-gradient(180deg, #fff02a, #ffffff);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(180deg, #fff02a, #ffffff);
+  
+  /* W3C Standard */
+  background: linear-gradient(180deg, #fff02a, #ffffff);
+  }
+
+  .gradient-light-gray-180-white {
+/*  height:100px;*/
+/*  border:1px solid black;*/
+/*  padding:10px;*/
+  background: #eeeeee;
+  
+  /* Safari and Google Chrome */
+  background: -webkit-linear-gradient(180deg, #eeeeee, #ffffff);
+  
+  /* Firefox */
+  background: -moz-linear-gradient(180deg, #eeeeee, #ffffff);
+  
+  /* Opera */
+  background: -o-linear-gradient(180deg, #eeeeee, #ffffff);
+  
+  /* Internet Explorer */
+  background: -ms-linear-gradient(180deg, #eeeeee, #ffffff);
+  
+  /* W3C Standard */
+  background: linear-gradient(180deg, #eeeeee, #ffffff);
+  }
+
+/* Flexbox Masrony Grid */
+
+
+/*
+body {
+  margin: 0;
+}
+
+a {
+  border:none;
+  border:hidden;
+}
+*/
+
+.flex-container {
+  padding: 0;
+/*  margin: .5%;*/
+  flex-wrap: wrap;
+  
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.flex-row            { 
+  -webkit-flex-direction: row; 
+  flex-direction: row;
+}
+
+.item > img {
+     display: block;
+     float: left;
+     height:0;
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     vertical-align:top;
+}
+
+
+@media only screen and (min-width: 300px) {
+
+.item {
+    background: #fff;
+    margin: .25%;
+    width: 49.5%;
+}
+
+.item > a > img {
+     width: 100%;
+     padding-bottom: 135%;
+}
+
+.item-wide {
+    background: #fff;
+    margin: .25%;
+    width: 99.5%;
+}
+
+.item-wide > a > img {
+     width: 100%;
+     padding-bottom: 66.75%;
+}
+
+}
+
+@media only screen and (min-width: 900px) {
+
+.item {
+    background: #fff;
+    margin: .25%;
+    width: 24.5%;
+}
+
+.item > a > img {
+     width: 100%;
+     padding-bottom: 135%;
+}
+
+.item-wide {
+    background: #fff;
+    margin: .25%;
+    width: 49.5%;
+}
+
+.item-wide > a > img {
+     width: 100%;
+     padding-bottom: 66.75%;
+}
+
+
+}
+
+
+
+.img-1,
+.img-2,
+.img-3,
+.img-4,
+.img-5,
+.img-6,
+.img-7,
+.img-8,
+.img-9,
+.img-10,
+.img-11,
+.img-12,
+.img-13,
+.img-14,
+.img-15,
+.img-16,
+.img-17,
+.img-18,
+.img-19,
+.img-20 {
+  background-position-y: 0; /* is this correct property to top align */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.img-1 {
+  background-image: url("https://images.unsplash.com/photo-1475018608413-f84fe2a42b7a?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=2241&q=80&cs=tinysrgb");
+}
+
+.img-2 {
+    background-image: url("https://images.unsplash.com/photo-1466150036782-869a824aeb25?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb");
+}
+
+.img-3 {
+    background-image: url("https://images.unsplash.com/photo-1471174466996-0aa69dbda661?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1202&q=80&cs=tinysrgb");
+}
+
+/*.img-4 {
+    background-image: url("https://images.unsplash.com/photo-1430462708036-7ef5363d56d8?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=2292&q=80&cs=tinysrgb");
+  }*/
+
+.img-5 {
+    background-image: url("https://images.unsplash.com/photo-1430462708036-7ef5363d56d8?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=2292&q=80&cs=tinysrgb");
+}
+
+.img-6 {
+    background-image: url("https://images.unsplash.com/photo-1445295029071-5151176738d0?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb");
+background-position-x:-150px;}
+
+.img-7 {
+    background-image: url("https://images.unsplash.com/photo-1435164205788-305635a36ec2?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=2250&q=80&cs=tinysrgb");
+background-position-y:bottom;}
+
+.img-8 {
+    background-image: url("https://images.unsplash.com/photo-1461638189575-2a947ecbf2cb?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=2143&q=80&cs=tinysrgb");
+background-position-y:bottom;}
+
+.img-9 {
+    background-image: url("https://images.unsplash.com/photo-1441148345475-03a2e82f9719?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb");
+}
+
+.img-10 {
+    background-image: url("https://images.unsplash.com/photo-1472806426350-603610d85659?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb");
+background-position-x:right;}
+
+.img-11 {
+    background-image: url("https://images.unsplash.com/photo-1440613905118-99b921706b5c?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb");
+background-position-x:center;}
+
+.img-12 {
+    background-image: url("https://images.unsplash.com/photo-1472739841375-d0ea9f0cb6a6?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=2247&q=80&cs=tinysrgb");
+}
+
+.img-13 {
+    background-image: url("https://images.unsplash.com/photo-1459257831348-f0cdd359235f?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb");
+background-position-x:right;}
+
+.img-14 {
+    background-image: url("https://images.unsplash.com/photo-1416331108676-a22ccb276e35?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1004&q=80&cs=tinysrgb");
+background-position-x:center;}
+
+/*.img-15 {
+    background-image: url("https://images.unsplash.com/photo-1471171768346-d08fb2813c45?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=2250&q=80&cs=tinysrgb");
+  }*/
+
+.img-16 {
+    background-image: url("https://images.unsplash.com/photo-1471171768346-d08fb2813c45?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=2250&q=80&cs=tinysrgb");
+}
+
+.img-17 {
+    background-image: url("https://images.unsplash.com/21/mac-glasses.JPG?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb");
+}
+.img-18 {
+    background-image: url("https://images.unsplash.com/21/mac-glasses.JPG?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb");
+}
+.img-19 {
+    background-image: url("https://images.unsplash.com/21/mac-glasses.JPG?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb");
+}
+.img-20 {
+    background-image: url("https://images.unsplash.com/21/mac-glasses.JPG?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb");
+  }
+
+
+/* End Flexbox Masonry Grid */
+
