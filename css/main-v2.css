@@ -16,9 +16,6 @@ div.ad-shadow-300 {
     background: url("../img/round2/wedding.jpeg");
 }
 
-.img-bridal-bw {
-    background: url("../img/round2/wedding-bw.jpg");
-}
 
 .img-gym-yellow {
     background: url("../img/round2/gym-yellow.jpg");
@@ -41,16 +38,23 @@ div.ad-shadow-300 {
 
 .img-gym {
     background: url("../img/round2/gym.jpeg");
-    background-position:bottom;
+    background-position:bottom left;
     background-size:150%;
 }
 
 
 .img-gym-bw {
     background: url("../img/round2/gym-bw.jpg");
-    background-position:bottom left;
-    background-size:150%;
+    background-position:bottom;
+    background-size:160%;
 }
+
+.img-bridal-bw {
+    background: url("../img/round2/wedding-bw.jpg");
+    background-position:center left;
+    background-size:250%;
+}
+
 
 /* Campaign Logos */
 
