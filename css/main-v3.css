@@ -22,6 +22,8 @@ div.ad-shadow-300 {
     background-position:bottom left;
 }
 
+.img-agency-project-fail,
+.img-agency-project-fail-2,
 .img-shoes,
 .img-bridal,
 .img-bridal-bw,
@@ -84,6 +86,19 @@ div.ad-shadow-300 {
     background-position:center left;
     background-size:250%;
 }
+
+.img-agency-project-fail {
+    background: url("https://images.unsplash.com/photo-1454023989775-79520f04322c?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=");
+    background-position:center left;
+    background-size:265%;
+}
+
+.img-agency-project-fail-2 {
+    background: url("https://images.unsplash.com/photo-1454023989775-79520f04322c?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=");
+    background-position:center right;
+    background-size:240%;
+}
+
 
 
 
@@ -991,6 +1006,10 @@ a {
   border:hidden;
 }
 */
+
+.no-wrap {
+  white-space: nowrap;
+}
 
 .flex-container {
   padding: 0;
