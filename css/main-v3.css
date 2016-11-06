@@ -24,6 +24,7 @@ div.ad-shadow-300 {
 
 .img-agency-project-fail,
 .img-agency-project-fail-2,
+.img-agency-project-fail-3,
 .img-shoes,
 .img-bridal,
 .img-bridal-bw,
@@ -96,6 +97,12 @@ div.ad-shadow-300 {
 .img-agency-project-fail-2 {
     background: url("https://images.unsplash.com/photo-1454023989775-79520f04322c?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=");
     background-position:center right;
+    background-size:240%;
+}
+
+.img-agency-project-fail-3 {
+    background: url("https://images.unsplash.com/photo-1454023989775-79520f04322c?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=");
+    background-position:65% 50%;
     background-size:240%;
 }
 
@@ -319,6 +326,11 @@ font-family: 'Pompiere', cursive !important;
 /*font-weight:300;*/
 }
 
+/* Bold Sans Serif */
+.campaign-font-17  {
+font-family: 'Passion One', cursive !important;
+font-weight:700;
+}
 
 
 /* Header reset */
